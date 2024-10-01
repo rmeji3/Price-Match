@@ -21,3 +21,5 @@ if response.status_code == 200:
         print(link.get('src'))
 else:
     print(f"Failed to retrieve the page. Status code: {response.status_code}")
+
+    #test
